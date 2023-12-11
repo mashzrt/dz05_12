@@ -1,0 +1,132 @@
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.wrapp {
+  height: 120px;
+  width: 1920px;
+  margin-bottom: 0px;
+}
+
+.first,
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+p {
+  width: 80px;
+  color: rgb(60, 60, 60);
+  text-align: center;
+}
+.h1 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 100px;
+  color: white;
+  transform: rotate(-0.75deg);
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 22px;
+  color: white;
+  transform: rotate(-0.75deg);
+  margin-bottom: 40px;
+}
+.block {
+  width: 1920px;
+  height: 714px;
+  background-color: black;
+}
+.gradient {
+  position: static;
+  width: 3189.61px;
+  height: 769.04px;
+  background-image: radial-gradient(#ff333380 0%, #ff333300 50%);
+  transform: rotate(0.75deg);
+  margin-left: -628.86px;
+}
+.squares {
+  display: flex;
+  justify-content: center;
+  transform: rotate(-0.75deg);
+  text-align: center;
+}
+
+.square {
+  width: 319px;
+  height: 282px;
+  background-color: black;
+  margin: 15px;
+}
+.text {
+  width: 281px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Lato";
+  font-size: 22px;
+}
+.txt {
+  margin: auto;
+  width: 933px;
+
+  text-align: center;
+  color: white;
+  font-family: "Lato";
+  font-size: 48px;
+  margin: auto;
+  margin-top: -230px;
+}
+.mini_square {
+  width: 84px;
+  height: 84px;
+  background-image: linear-gradient(#ff3333, #00000000);
+  border-image-slice: 1;
+  margin: auto;
+  transform: rotate(45deg);
+}
+.numbers {
+  width: 84px;
+  height: 84px;
+  color: white;
+  transform: rotate(-45deg);
+  font-family: "Lato";
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 1920px;
+  height: 630px;
+  background-color: black;
+}
+.oval {
+  width: 665px;
+  height: 278px;
+  background: none;
+  border-color: #ff3333;
+  border: 0.5px solid #ff3333;
+  border-radius: 332.5px/139px;
+  margin-left: 453.6px;
+  transform: rotate(15.78deg);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.oval:hover {
+  -webkit-transform: rotate(-15.78deg);
+  transform: rotate(-15.78deg);
+}
+.underline {
+  text-decoration: underline 2px;
+  text-decoration-color: #ff3333;
+}
